@@ -34,6 +34,12 @@ public class OrderPageTest extends BaseClass {
 		launchApp(browser); 
 	}
 	
+//	@AfterMethod(groups = {"Smoke","Sanity","Regression"})
+//	public void tearDown() {
+//		getDriver().quit();
+//	}
+	
+	
 	@AfterMethod(groups = {"Smoke","Sanity","Regression"})
 	public void tearDown() {
 		getDriver().quit();
